@@ -148,4 +148,31 @@
     }
 
     const child = createAnother(person)
+
+
+    /**
+    ES6 Class 使用 extends关键字继承
+    */
+
+//    function Point() {}
+
+//    function ColorPonit extends Point() {
+//        constructor(props) {
+//            super(props) 
+//        }
+//    }
+
+//    const colorPoint = new ColorPoint()
+
+    class Animal {}
+
+    class Cat extends Animal {
+        constructor() {
+            super()
+        }
+    }
+
+
+
+   // ES5 继承 https://blog.csdn.net/qq_42744920/article/details/126920831
 ```
